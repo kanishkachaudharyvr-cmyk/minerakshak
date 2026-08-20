@@ -1,14 +1,14 @@
 import { Analytics } from '@vercel/analytics/next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter, Geist_Mono } from 'next/font/google'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
-const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
+const geist = Inter({ subsets: ['latin'], variable: '--font-geist' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'ROCKSENSE | Intelligent Mine Safety',
-  description: 'Predictive slope stability intelligence for safer open-pit mining.',
+  title: 'MineRakshak | Intelligent Mine Safety',
+  description: 'MineRakshak provides predictive slope stability intelligence for safer open-pit mining.',
   generator: 'v0.app',
   icons: {
     icon: [
