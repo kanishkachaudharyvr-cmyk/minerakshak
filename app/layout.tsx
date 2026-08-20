@@ -8,7 +8,7 @@ const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono'
 
 export const metadata: Metadata = {
   title: 'MineRakshak | Intelligent Mine Safety',
-  description: 'MineRakshak provides predictive slope stability intelligence for safer open-pit mining.',
+  description: 'MineRakshak provides predictive rockfall risk intelligence for safer open-pit mining.',
   generator: 'v0.app',
   icons: {
     icon: [
